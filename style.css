@@ -1,0 +1,112 @@
+body{
+    color: azure;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+th,td{
+border: 1px solid #adb0a1;
+padding: 4px;
+}
+table{
+margin-right: auto;
+margin-left: auto;
+    width: 460px;
+}
+h1,h3{
+  text-align: center; 
+}
+.container{
+    background: linear-gradient(to bottom, #190955, #d88b2c);
+    height: 130vh;
+}
+.mypic{
+ display: flex;
+ align-items: center;
+ margin: 10px 0;   
+ justify-content: space-around;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid palegreen;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    object-fit: cover;
+    
+    
+}
+.img:hover{
+    transform: scale(1.1);
+    
+}
+h2{
+    background-color: antiquewhite;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    color: aqua;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+a:hover {
+    transform: scale(1.2); 
+    color: aqua;
+  }
+.aboutcont{
+    
+    max-width: 400px;
+}
+ .my{
+        background-color: aqua;
+        width: fit-content;
+        margin: auto;
+        padding: 0px 20px;
+        
+    }
+.nmamit,.Cs{
+    text-align: center;
+
+}
+.contact {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .contacts {
+    margin-bottom: 20px;
+  }
+  
+  .pnone {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .fa-brands {
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .fa-brands:hover {
+    transform: scale(1.2);
+    color: #ff9900;
+  }
+  
